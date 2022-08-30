@@ -16,6 +16,12 @@
 		039200DB28BE854C00947063 /* SimonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039200DA28BE854C00947063 /* SimonTests.swift */; };
 		039200E528BE854C00947063 /* SimonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039200E428BE854C00947063 /* SimonUITests.swift */; };
 		039200E728BE854C00947063 /* SimonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039200E628BE854C00947063 /* SimonUITestsLaunchTests.swift */; };
+		039200FA28BE980600947063 /* yellow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 039200F428BE980600947063 /* yellow.wav */; };
+		039200FB28BE980600947063 /* green.wav in Resources */ = {isa = PBXBuildFile; fileRef = 039200F528BE980600947063 /* green.wav */; };
+		039200FC28BE980600947063 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 039200F628BE980600947063 /* win.wav */; };
+		039200FD28BE980600947063 /* blue.wav in Resources */ = {isa = PBXBuildFile; fileRef = 039200F728BE980600947063 /* blue.wav */; };
+		039200FE28BE980600947063 /* lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = 039200F828BE980600947063 /* lose.wav */; };
+		039200FF28BE980600947063 /* red.wav in Resources */ = {isa = PBXBuildFile; fileRef = 039200F928BE980600947063 /* red.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		039200E028BE854C00947063 /* SimonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		039200E428BE854C00947063 /* SimonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimonUITests.swift; sourceTree = "<group>"; };
 		039200E628BE854C00947063 /* SimonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		039200F428BE980600947063 /* yellow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = yellow.wav; path = Audio/yellow.wav; sourceTree = "<group>"; };
+		039200F528BE980600947063 /* green.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = green.wav; path = Audio/green.wav; sourceTree = "<group>"; };
+		039200F628BE980600947063 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = win.wav; path = Audio/win.wav; sourceTree = "<group>"; };
+		039200F728BE980600947063 /* blue.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = blue.wav; path = Audio/blue.wav; sourceTree = "<group>"; };
+		039200F828BE980600947063 /* lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = lose.wav; path = Audio/lose.wav; sourceTree = "<group>"; };
+		039200F928BE980600947063 /* red.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = red.wav; path = Audio/red.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,13 @@
 		039200B728BE854A00947063 = {
 			isa = PBXGroup;
 			children = (
+				039200F728BE980600947063 /* blue.wav */,
+				039200F528BE980600947063 /* green.wav */,
+				039200F828BE980600947063 /* lose.wav */,
+				039200F928BE980600947063 /* red.wav */,
+				039200F628BE980600947063 /* win.wav */,
+				039200F428BE980600947063 /* yellow.wav */,
+				039200F328BE979800947063 /* Audio */,
 				039200C228BE854A00947063 /* Simon */,
 				039200D928BE854C00947063 /* SimonTests */,
 				039200E328BE854C00947063 /* SimonUITests */,
@@ -125,6 +144,13 @@
 				039200E628BE854C00947063 /* SimonUITestsLaunchTests.swift */,
 			);
 			path = SimonUITests;
+			sourceTree = "<group>";
+		};
+		039200F328BE979800947063 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +257,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				039200FA28BE980600947063 /* yellow.wav in Resources */,
+				039200FB28BE980600947063 /* green.wav in Resources */,
+				039200FC28BE980600947063 /* win.wav in Resources */,
+				039200FD28BE980600947063 /* blue.wav in Resources */,
+				039200FE28BE980600947063 /* lose.wav in Resources */,
+				039200FF28BE980600947063 /* red.wav in Resources */,
 				039200D028BE854C00947063 /* LaunchScreen.storyboard in Resources */,
 				039200CD28BE854C00947063 /* Assets.xcassets in Resources */,
 				039200CB28BE854A00947063 /* Main.storyboard in Resources */,
