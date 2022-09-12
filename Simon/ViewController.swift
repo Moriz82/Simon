@@ -50,9 +50,9 @@ class ViewController: UIViewController {
             else{userIndex+=1;}
         }
         if (userIndex >= pattern.count) {
-            let url = Bundle.main.url(forResource: "win", withExtension: "wav")
-            player = try! AVAudioPlayer(contentsOf: url!)
-            player.play()
+            //let url = Bundle.main.url(forResource: "win", withExtension: "wav")
+           // player = try! AVAudioPlayer(contentsOf: url!)
+           // player.play()
             takingInput = false;
             userIndex=0;
             addToPattern();
@@ -61,9 +61,9 @@ class ViewController: UIViewController {
     }
     
     func lose() {
-        let url = Bundle.main.url(forResource: "lose", withExtension: "wav")
-        player = try! AVAudioPlayer(contentsOf: url!)
-        player.play()
+       // let url = Bundle.main.url(forResource: "lose", withExtension: "wav")
+     //   player = try! AVAudioPlayer(contentsOf: url!)
+    //    player.play()
         userIndex = 0;
         pattern = [];
         takingInput = true;
@@ -75,33 +75,33 @@ class ViewController: UIViewController {
                 
             case "Green":
                 greenButton.backgroundColor = UIColor.green
-                let url = Bundle.main.url(forResource: "green", withExtension: "wav")
-                player = try! AVAudioPlayer(contentsOf: url!)
-                player.play()
+                //let url = Bundle.main.url(forResource: "green", withExtension: "wav")
+               // player = try! AVAudioPlayer(contentsOf: url!)
+               // player.play()
                 greenButton.backgroundColor = UIColor(red: 75/255.0,green:145/255.0,blue:77/255.0,alpha: 255/255.0);
                 break
                 
             case "Red":
                 redButton.backgroundColor = UIColor.red
-                let url = Bundle.main.url(forResource: "red", withExtension: "wav")
-                player = try! AVAudioPlayer(contentsOf: url!)
-                player.play()
+             //   let url = Bundle.main.url(forResource: "red", withExtension: "wav")
+             ///   player = try! AVAudioPlayer(contentsOf: url!)
+             //   player.play()
                 redButton.backgroundColor = UIColor(red: 196/255.0,green:1/255.0,blue:18/255.0,alpha: 255/255.0);
                 break
                 
             case "Yellow":
                 yellowButton.backgroundColor = UIColor.yellow
-                let url = Bundle.main.url(forResource: "yellow", withExtension: "wav")
-                player = try! AVAudioPlayer(contentsOf: url!)
-                player.play()
+             //   let url = Bundle.main.url(forResource: "yellow", withExtension: "wav")
+             //   player = try! AVAudioPlayer(contentsOf: url!)
+              //  player.play()
                 yellowButton.backgroundColor = UIColor(red: 161/255.0,green:135/255.0,blue:47/255.0,alpha: 255/255.0);
                 break
                 
             case "Blue":
                 blueButton.backgroundColor = UIColor.blue
-                let url = Bundle.main.url(forResource: "blue", withExtension: "wav")
-                player = try! AVAudioPlayer(contentsOf: url!)
-                player.play()
+             //   let url = Bundle.main.url(forResource: "blue", withExtension: "wav")
+             //   player = try! AVAudioPlayer(contentsOf: url!)
+             //   player.play()
                 blueButton.backgroundColor = UIColor(red: 0/255.0,green:64/255.0,blue:158/255.0,alpha: 255/255.0);
                 break
                 
